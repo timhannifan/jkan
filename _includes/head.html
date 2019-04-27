@@ -6,19 +6,19 @@
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-  {% assign theme_name = site.jkan_theme | default: 'Default' %}
-  {% assign theme = site.data.themes | where:'name', theme_name | first %}
-  {% if theme and theme.src and theme.src != empty %}
-    <link rel="stylesheet" href="{{ theme.src }}">
-  {% endif %}
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- cdn imports -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/notie/3.0.0/notie.min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
+  
+  <!-- Bootstrap core CSS -->
+  <link href="{{ site.baseurl }}/static/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/static/css/style.css">
+  
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   {% if site.digital_analytics_program.enabled == true %}
@@ -46,6 +46,7 @@
     {% include addons/twittercard.html %}
   {% endif %}
 
+
   <script>
   var settings = {
     BASE_URL: {{ site.baseurl | jsonify }},
@@ -55,6 +56,6 @@
     REPO_NAME: {{ site.github.project_title | jsonify }},
     GITHUB_CLIENT_ID: {{ site.github_client_id | jsonify }},
     GATEKEEPER_HOST: {{ site.gatekeeper_host | jsonify }}
-  }
+    }
   </script>
 </head>

@@ -5,7 +5,7 @@ baseurl: /jkan
 logo: /img/jkan.png
 
 # Site theme
-jkan_theme: Paper
+# theme: jekyll-theme-primer
 
 # Authentication
 github_client_id: 3a3f8996386255871982
@@ -74,6 +74,11 @@ twittercard:
 opengraph:
   enabled: true
 
+plugins:
+#  - jekyll-theme-primer
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+
 # Exclude these files from the build
 exclude:
   - Gemfile
@@ -86,3 +91,7 @@ exclude:
   - webpack.config.js
   - README.md
   - LICENSE
+
+sass:
+  sass_dir: _sass
+  style: compressed
