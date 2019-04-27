@@ -1,7 +1,7 @@
-title: DataStore
-greeting: Welcome to DataStore
-description: An open-soure template for quick db-free web apps
-baseurl: /jkan
+title: PublicDomain
+greeting: Welcome to PublicDomain
+description: Making government data faster and easier to access.
+baseurl: /PublicDomain
 logo: /img/jkan.png
 
 # Site theme
@@ -16,19 +16,19 @@ schema: default
 
 # Nav bar
 navigation:
-  - title: Datasets
-    url: /datasets/
-  - title: Organizations
-    url: /organizations/
+  - title: Data
+    url: /data/
+  - title: Sources
+    url: /sources/
 
 # Collections
 collections:
-  datasets:
-    output: true
-    permalink: /datasets/:path/
   organizations:
     output: true
-    permalink: /organizations/:path/
+    permalink: /sources/:path/
+  datasets:
+    output: true
+    permalink: /data/:path/
 
 # Collections (cont'd)
 defaults:

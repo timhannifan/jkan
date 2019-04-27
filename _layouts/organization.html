@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include breadcrumbs.html parent="Organizations" %}
+{% include breadcrumbs.html parent="Sources" %}
 
 <div data-component="view-switcher">
   <div class="row" data-hook="view" data-view="display">
@@ -9,10 +9,11 @@ layout: default
     <div class="col-sm-3">
       <a href="{{ page.logo }}" class="thumbnail"><img src="{{ page.logo }}" alt="{{ page.title }} logo"></a>
     </div>
-    <div class="col-sm-9">
-    {% else %}
-    <div class="col-sm-12">
     {% endif %}
+  <div class="col-sm-9">
+    
+    <div class="col-sm-12">
+
       <h1>
         {{ page.title }}
         <a href="?view=edit" class="pull-right btn btn-default admin-only">Edit</a>
