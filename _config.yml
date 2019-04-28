@@ -8,12 +8,12 @@ logo: /img/jkan.png
 # theme: jekyll-theme-primer
 
 # Authentication
-github_client_id: 06e3fee24fe898b075fa
+github_client_id: e905ffb1226791ca3791
 gatekeeper_host: https://public-domain.herokuapp.com
 
-github:
-  - owner_name: 'timhannifan'
-  - project_title: 'public-domain'
+# github:
+#   - owner_name: 'timhannifan'
+#   - project_title: 'public-domain'
 # Dataset schema
 schema: default
 
