@@ -13,7 +13,7 @@ gatekeeper_host: https://public-domain.herokuapp.com
 
 github:
   owner_name: 'timhannifan'
-  project-title: 'public-domain'
+  project_title: 'public-domain'
 # Dataset schema
 schema: default
 
