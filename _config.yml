@@ -11,6 +11,9 @@ logo: /img/jkan.png
 github_client_id: 06e3fee24fe898b075fa
 gatekeeper_host: https://public-domain.herokuapp.com
 
+github:
+  owner_name: 'timhannifan'
+  project-title: 'public-domain'
 # Dataset schema
 schema: default
 
