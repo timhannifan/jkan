@@ -12,8 +12,8 @@ github_client_id: 06e3fee24fe898b075fa
 gatekeeper_host: https://public-domain.herokuapp.com
 
 github:
-  owner_name: 'timhannifan'
-  project_title: 'public-domain'
+  - owner_name: 'timhannifan'
+  - project_title: 'public-domain'
 # Dataset schema
 schema: default
 
