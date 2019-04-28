@@ -1,7 +1,7 @@
 title: PublicDomain
 greeting: Welcome to PublicDomain
 description: Making government data faster and easier to access.
-baseurl: /jkan
+baseurl: /public-domain
 logo: /img/jkan.png
 
 # Site theme
@@ -9,7 +9,7 @@ logo: /img/jkan.png
 
 # Authentication
 github_client_id: 3a3f8996386255871982
-gatekeeper_host: https://timhannifan-jkan.herokuapp.com
+gatekeeper_host: https://public-domain.herokuapp.com
 
 # Dataset schema
 schema: default
