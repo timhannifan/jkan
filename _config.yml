@@ -8,7 +8,7 @@ logo: /img/jkan.png
 # theme: jekyll-theme-primer
 
 # Authentication
-github_client_id: 3a3f8996386255871982
+github_client_id: 06e3fee24fe898b075fa
 gatekeeper_host: https://public-domain.herokuapp.com
 
 # Dataset schema
