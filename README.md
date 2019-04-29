@@ -1,6 +1,6 @@
 # PublicDomain 
 
-PublicDomain is designed to make government data faster and easier to access. The site contains a growing number of datasets from various federal, state, and local sources.
+PublicDomain is designed to make civic data easier to find and faster to access. The site contains datasets from various federal, state, and local sources.
 
 [Beta version](https://timhannifan.github.io/public-domain/)
 
