@@ -1,6 +1,6 @@
 ---
 schema: default
-title: Integrated Compliance Information System for federal civil enforcement case data
+title: U.S. Environmental Statute Enforcement Cases
 organization: EPA
 notes: The Enforcement and Compliance History Online (ECHO) system incorporates Federal enforcement and compliance (FE&C) data from the Integrated Compliance Information System (ICIS), used to track federal enforcement cases. ICIS contains information on federal administrative and federal judicial cases under various  environmental statutes.
 resources:
@@ -12,4 +12,5 @@ resources:
     format: zip
 category:
   - Environment
+  - Federal
 ---

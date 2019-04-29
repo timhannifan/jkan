@@ -27,4 +27,7 @@ category:
   - Labor
   - Population
   - Housing
+  - Education
+  - Federal
+  - State
 ---

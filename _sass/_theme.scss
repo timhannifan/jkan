@@ -16,6 +16,7 @@ $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-light-alt: #f8f8f8;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 $orange-color:     #f66a0a !default;
 $table-text-align: left !default;
@@ -62,10 +63,13 @@ $on-large:         $on-laptop !default;
   width: 64px;
 }
 
-.dataset {
+dataset {
   display: block;
   border-bottom: 1px #d6d6d6 solid;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  h3 {
+    font-size: 1.2em;
+  }
 }
 
 .list-group-item-truncate {

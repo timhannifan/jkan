@@ -1,4 +1,10 @@
 /**
+ * Main content
+ */
+.site-content {
+    min-height: 80vh;
+}
+ /**
  * Site header
  */
 .site-header {
@@ -98,13 +104,27 @@
  * Site footer
  */
 .site-footer {
+    margin-top: $spacing-unit/2;
+    // padding: $spacing-unit;
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    background-color:$grey-color-light-alt;
+    position: relative;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+}
+.footer-copyright {
+    float: left;
+    padding: 20px 0 0 40px;
+    // font-size: 18px;
+    line-height: 20px;
+    height: 50px;
 }
 
 .contact-list,

@@ -1,6 +1,6 @@
 ---
 schema: default
-title: Resource Conservation and Recovery Act information for hazardous waste sites
+title: U.S. Hazardous Waste Sites
 organization: EPA
 notes: The Enforcement and Compliance History Online (ECHO) system incorporates data from the Resource Conservation and Recovery Act Information System (RCRAInfo). The RCRAInfo data elements most commonly used for enforcement and compliance history have been included in the download files.
 resources:
@@ -12,4 +12,5 @@ resources:
     format: zip
 category:
   - Environment
+  - Federal
 ---

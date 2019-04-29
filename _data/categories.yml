@@ -1,31 +1,23 @@
-- name: Budget / Finance
-  logo: /img/categories/budget-finance.svg
-  logo_credit: Renan Ferreira Santos from the Noun Project
-  featured: true
-- name: Economy
-  logo: /img/categories/economy.svg
+- name: Economics
   logo_credit: Vectors Market from the Noun Project
   featured: true
+- name: Labor
+  logo_credit: Vectors Market from the Noun Project
+  featured: true
+- name: Population
+  logo_credit: Vectors Market from the Noun Project
+  featured: true
+- name: Housing
+  logo_credit: Sergey Patutin from the Noun Project
+  featured: true
 - name: Education
-  logo: /img/categories/education.svg
   logo_credit: Sergey Patutin from the Noun Project
   featured: true
 - name: Environment
-  logo: /img/categories/environment.svg
   featured: true
 - name: Health
-  logo: /img/categories/health-human-services.svg
   logo_credit: Timothy Miller from the Noun Project
   featured: true
-- name: Public Safety
-  logo: /img/categories/public-safety.svg
-  logo_credit: Rohith M S from the Noun Project
-  featured: true
-- name: Transportation
-  logo: /img/categories/transportation.svg
-  logo_credit: Dmitry Baranovskiy from the Noun Project
-  featured: true
-- name: Uncategorized
-  logo: /img/categories/uncategorized.svg
+- name: Federal
   logo_credit: Edward Boatman from the Noun Project
   featured: true

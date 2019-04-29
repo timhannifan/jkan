@@ -7,9 +7,11 @@ layout: default
   <p>
     {{ site.description }}
   </p>
-  <p><a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/data" role="button">See the data</a></p>
+  <p><a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/data" role="button">See all the data</a></p>
 </div>
 
-<h3>About</h3>
-
-
+<h3>Quick Search</h3>
+<div data-component="datasets-list">
+  <input data-hook="search-query" type="text" placeholder="Search">
+  <div data-hook="datasets-items"></div>
+</div>
