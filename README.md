@@ -4,5 +4,10 @@ PublicDomain is designed to make civic data easier to find and faster to access.
 
 [Beta version](https://timhannifan.github.io/public-domain/)
 
+## Local Development
+Clone this repo and run the following command:
+`bundle exec jekyll serve`
+
 ## Development
 Built with [JKAN](https://github.com/timwis/jkan), a lightweight, backend-free open data portal, powered by Jekyll.
+
