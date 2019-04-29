@@ -24,6 +24,14 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+    max-width: 100vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, .navbar {
@@ -95,15 +103,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: lighten($brand-color, 20%);;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+    // &:visited {
+    //     color: darken($brand-color, 15%);
+    // }
 
     &:hover {
-        color: $text-color;
+        color: lighten($text-color, 20%);
         text-decoration: underline;
     }
 }

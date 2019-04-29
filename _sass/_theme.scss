@@ -180,6 +180,8 @@ dataset {
 
   .btn{
     background-color: white;
+    color: lighten($brand-color, 20%);
+    font-family: $font-family-alt;
   }
   .btn:hover{
     color: $grey-color;
