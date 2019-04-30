@@ -4,6 +4,15 @@ title: American Community Survey (ACS)
 organization: U.S. Census Bureau
 notes: The American Community Survey (ACS) helps local officials, community leaders, and businesses understand the changes taking place in their communities. It is the premier source for detailed population and housing information about our nation.
 resources:
+  - name: API Tutorial
+    url: 'https://www.census.gov/programs-surveys/acs/guidance/training-presentations/acs-api.html'
+    format: link
+  - name: 1-Year Data API
+    url: 'https://www.census.gov/data/developers/data-sets/acs-1year.html'
+    format: link
+  - name: 5-Year Data API
+    url: 'https://www.census.gov/data/developers/data-sets/acs-5year.html'
+    format: link
   - name: 2017 1-Year Summary File
     url: 'https://www2.census.gov/programs-surveys/acs/summary_file/2017/data/2017_1yr_Summary_FileTemplates.zip'
     format: zip
@@ -30,4 +39,5 @@ category:
   - Education
   - Federal
   - State
+  - API
 ---
